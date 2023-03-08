@@ -13,6 +13,10 @@ module.exports = {
 				"secondary-dark-grey": "#484848",
 				"secondary-grey": "#767676",
 			},
+			dropShadow: {
+				'tariq': '0px 0px 15px rgba(0, 0, 0, 0.15)',
+			}
+
 		},
 	},
 	plugins: [],
