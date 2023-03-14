@@ -14,7 +14,7 @@ module.exports = {
 				"secondary-grey": "#767676",
 			},
 			dropShadow: {
-				'tariq': '0px 0px 15px rgba(0, 0, 0, 0.15)',
+				'sm': '0px 0px 15px rgba(0, 0, 0, 0.15)',
 			}
 
 		},
