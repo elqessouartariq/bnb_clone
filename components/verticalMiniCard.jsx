@@ -12,7 +12,7 @@ export function VerticalMiniCard ({country ,title , price , days ,rating}) {
 	
 
 	return (
-		<div className="w-[188px] h-[214px] space-y-2">
+		<div className="w-[188px] space-y-2">
 			<div>
 				<CustomImage src="/Images/discoveradventure/discoveradv.svg" className="object-cover min-w-full bg-cover min-h-full rounded-md" />
 			</div>
