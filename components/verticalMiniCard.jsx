@@ -3,7 +3,7 @@ export function VerticalMiniCard () {
 	return (
 		<div className="w-[188px] h-[214px] space-y-2">
 			<div>
-				<CustomImage src="/Images/discoveradventure/discoveradv.svg" className="w-full bg-cover h-full rounded-md" />
+				<CustomImage src="/Images/discoveradventure/discoveradv.svg" className="object-cover min-w-full bg-cover min-h-full rounded-md" />
 			</div>
 			<h3 className=" text-secondary-grey text-sm">Country</h3>
 			<h1 className=" text-secondary-dark-grey font-bold  text-base" >2 Nights PACKAGE All Inclusive</h1>
