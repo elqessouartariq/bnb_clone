@@ -1,6 +1,11 @@
 import { CustomImage } from "./customImage"
 
-export function HorizontalMiniCard ({src = "/Images/accommodation/accomodation1.svg", content = "Logement"}) {
+HorizontalMiniCard.defaultProps = {
+    src: "/Images/accommodation/accomodation1.svg", 
+    content: "Logement"
+}
+
+export function HorizontalMiniCard ({ src , content }) {
     return (
         <div className="flex h-20 w-96 items-center rounded-lg bg-white drop-shadow-sm">
             <div className="w-32">

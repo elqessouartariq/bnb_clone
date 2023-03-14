@@ -1,4 +1,9 @@
-export function InputText({ label = "label", placeholder = "Placeholder" }){
+InputText.defaultProps = {
+    label: "label", 
+    placeholder: "Placeholder"
+}
+
+export function InputText({ label , placeholder }){
     return (
         <div>
             <label className="block text-secondary-dark-grey font-semibold" >{label}</label>
