@@ -1,5 +1,8 @@
+SecondaryCta.defaultProps = {
+    content: "Découvrir des logements"
+}
 
-export function SecondaryCta ({content = "Découvrir des logements"}) {
+export function SecondaryCta ({ content }) {
     return (
         <>
         <button className=" font-bold bg-white hover:bg-sky-500
