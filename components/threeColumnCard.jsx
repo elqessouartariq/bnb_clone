@@ -4,13 +4,14 @@ import { CustomImage } from "./customImage"
 ThreeColumnCard.defaultProps = {
 	price: 577,
 	days: 3,
-	rating: 4.87
+	rating: 4.87,
+	src: "/Images/wholeWord/Toledo.svg" 
 }
 
 export function ThreeColumnCard ({ price, days ,rating }) {
 	return (
 		<div className="w-[290px]  space-y-4 ">
-			<CustomImage src="/Images/wholeWord/Toledo.svg" />            
+			<CustomImage src={src} />            
 			<div className="flex justify-between ">
 				<div className="flex items-center ">
 					<TagMini/>
@@ -25,4 +26,4 @@ export function ThreeColumnCard ({ price, days ,rating }) {
 			<h3 className=" text-sm font-normal text-secondary-dark-grey leading-5">À partir de {price}€/personne - {days} jours</h3>
 		</div>
 	)
-}
+} 
