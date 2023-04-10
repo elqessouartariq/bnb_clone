@@ -18,7 +18,10 @@ module.exports = {
 			},
 			textShadow: {
 				'md': '0px 4px 4px rgba(0, 0, 0, 0.25);',
-			 }
+			 },
+			backgroundImage: {
+				'hero-image': "url('/Images/hero_bg.svg')",
+			}
 		},
 	},
 	plugins: [
