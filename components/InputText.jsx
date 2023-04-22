@@ -6,7 +6,7 @@ InputText.defaultProps = {
 
 export function InputText({ label, placeholder, width }) {
 	return (
-		<div>
+		<div className="p-3">
 			<label className="block text-secondary-dark-grey  font-bold text-xs uppercase">
 				{label}
 			</label>
@@ -18,3 +18,4 @@ export function InputText({ label, placeholder, width }) {
 		</div>
 	);
 }
+``;
