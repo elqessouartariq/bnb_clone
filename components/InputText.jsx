@@ -18,4 +18,3 @@ export function InputText({ label, placeholder, width }) {
 		</div>
 	);
 }
-``;
