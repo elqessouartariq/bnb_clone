@@ -4,9 +4,10 @@ import { ReservationCard } from "./ReservationCard";
 export function HeroSection() {
 	return (
 		<>
-			<div className=" bg-hero-image bg-cover">
-				<Header />
-				<ReservationCard />
+			<div className="relative bg-hero-image bg-cover h-screen max-h-full">
+				<Header>
+					<ReservationCard />
+				</Header>
 			</div>
 		</>
 	);
